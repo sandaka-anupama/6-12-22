@@ -1,0 +1,17 @@
+#REVERSE OF A NUMBER
+num = int(input("Enter a value:"))  
+temp = num  
+rev = 0  
+while(num > 0):  
+    dig = num % 10  
+    rev = rev * 10 + dig  
+    num = num //10  
+print("reverse:",rev)  
+ output:
+ == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/dfg.py ==
+Enter a value:123
+reverse: 321
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/dfg.py ==
+Enter a value:456
+reverse: 654
