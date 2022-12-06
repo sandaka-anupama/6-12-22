@@ -1,0 +1,20 @@
+#PALINDROME OR NOT
+num = int(input("Enter a value:"))  
+temp = num  
+rev = 0  
+while(num > 0):  
+    dig = num % 10  
+    rev = rev * 10 + dig  
+    num = num //10  
+if(temp == rev):  
+    print("This value is a palindrome number!")  
+else:  
+    print("This value is not a palindrome number!")
+    
+    output:
+    == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/dfg.py ==
+Enter a value:121
+This value is a palindrome number!
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/dfg.py ==
+Enter a value:345
+This value is not a palindrome number!
